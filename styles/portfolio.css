@@ -2,8 +2,6 @@
 
 body {
     font-family: "Open Sans", serif;
-
-
 }
 
 .btn-primary {
@@ -20,6 +18,7 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
+    margin: 0 200px;
 }
 
 nav>ul {
@@ -36,6 +35,21 @@ nav li {
 nav a {
     text-decoration: none;
     color: black;
+}
+
+/* header related style */
+.header {
+    background-color: #FFF8F3;
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .pro-pic {
+    width: 400px;
 }
 
 .text-primary {
